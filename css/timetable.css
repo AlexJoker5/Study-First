@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content-body {
+    display: grid;
+    place-items: center;
+}
+
+.fc-daygrid-event-dot{
+    display: none;
+}
+
+.fc-event-title {
+    padding: 1px 1px 1px 0.3rem;
+    font-size: .85rem;
+    font-weight: 400!important;
+    line-height: 1.5;
+    font-family: system-ui;
+    background-color: #3788d8;
+    border-radius: 5%;
+    color: #fff;
+}
+
+.fc-col-header-cell-cushion, .fc-daygrid-day-number{
+    color: #000!important;
+}
+.fc-col-header-cell-cushion {
+    padding-top: 10px!important;
+}
+
+.fc-col-header{
+    min-height: 50px!important;
+}
+
+.fc .fc-view-harness {
+    margin-left: 2rem;
+    max-width: 1000px!important;
+    max-height: 450px!important;
+}
+

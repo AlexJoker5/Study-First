@@ -1,0 +1,152 @@
+.content {
+    min-height: 200vh;
+    width: 100%;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.image_area {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    margin-bottom: -65px;
+    margin-left: 2rem;
+}
+
+.image_area1 {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.preview {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.preview1 {
+    overflow: hidden;
+    width: 400px;
+    height: 88px;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.modal-lg{
+    max-width: 800px !important;
+}
+
+.overlay, .background-half-opacity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    width: inherit;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease!important;
+    width: 3rem;
+}
+
+
+
+.image_area:hover .overlay  {
+    height: 50%;
+    cursor: pointer;
+}
+
+.image_area1:hover  img{
+    opacity: 70%;
+}
+
+
+.image_area1:hover .overlay1 {
+    height: 3rem;
+}
+
+.h-22 {
+    height: 220px;
+}
+
+.text {
+    color: #333;
+    font-size: 15px;
+    width: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text1 {
+    color: #fff;
+    font-size: 15px;
+    width: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img-container {
+    max-width: 35rem;
+}
+
+input, select {
+    height: 40px;
+    min-width: 300px;
+    max-width: 350px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.point {
+    cursor: pointer;
+}
+
+@media(max-width: 768px ){
+    input, select {
+        min-width: 220px;
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 375px ){
+    input, select {
+        min-width: 150px;
+        max-width: 200px;
+    }
+}
+

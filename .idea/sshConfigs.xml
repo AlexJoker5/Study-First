@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" id="c298c14b-6408-4b02-89d6-0f7388284115" customName="Apache2-xcript" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="Apache2-xcript" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

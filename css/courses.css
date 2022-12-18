@@ -1,0 +1,36 @@
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+th:last-child {
+    min-width: 5.5rem;
+}
+
+tr th{
+    line-height: 50px;
+}
+
+tr:last-child {
+    border: none!important;
+}
+
+td{
+    line-height: 50px;
+    vertical-align: center;
+}
+.table-td {
+    width: inherit;
+    height: inherit;
+}
+
+@media screen and (max-width: 1058px) {
+    tr th{
+        line-height: 30px!important;
+    }
+    td{
+        line-height: 20px!important;
+    }
+}
+
